@@ -9,6 +9,7 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -static")
 
 add_executable(P15289 "P15289.cpp")
 add_executable(P15289-generator "P15289-generator.cpp")
+add_executable(P15289-brut "P15289-brut.cpp")
 message("START")
 file(GLOB LUOGU_IN_FILES CONFIGURE_DEPENDS "${CMAKE_SOURCE_DIR}/*.in")
 message(${LUOGU_IN_FILES})
